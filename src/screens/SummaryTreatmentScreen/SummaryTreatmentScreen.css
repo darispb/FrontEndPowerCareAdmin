@@ -1,0 +1,47 @@
+.medicine-dt{
+    margin-left: 20vh;
+}
+
+.medicine-dt-right {
+    margin-left: 70%;
+}
+
+.button-done{
+    background-color: #818CF8;
+}
+
+.table-content-summary {
+    text-align: center;
+    overflow: scroll;
+    margin-top: 30px;
+  }
+  
+  .table-grid-summary {
+    display: grid;
+    /* grid-template-columns: 10% 30% 20% 20% calc(20% - 4rem); */
+    grid-template-columns: 20% 15% 40% calc(20% );
+    grid-gap: 1rem;
+  }
+  
+  .content-summary{
+    text-align: start;
+  }
+  
+  /* .text-med{
+    text-align: center;
+  } */
+  
+  .table-grid:not(:first-child) {
+    margin-top: 1rem;
+  }
+  
+  
+
+  /* .menu-row {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu-row > .icon-link {
+    cursor: pointer;
+  } */

@@ -1,0 +1,126 @@
+.appointment-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: #c7d2fe;
+  padding: 1rem 2rem;
+  padding-top: 2rem;
+  width: 90%;
+  align-self: center;
+}
+
+.search-bar-conten {
+  display: flex;
+  align-self: flex-end;
+  /* float: left; */
+  margin-right: calc(10% - 2rem);
+  align-items: center;
+  justify-content: flex-end;
+}
+/* font placeholder */
+/* .search-bar::-webkit-input-placeholder {
+  font-family: Poppins, "Mitr", sans-serif !important;
+}
+
+.search-bar:-ms-input-placeholder {
+  font-family: Poppins, "Mitr", sans-serif !important;
+}
+
+.search-bar:-moz-placeholder {
+  font-family: Poppins, "Mitr", sans-serif !important;
+}
+
+.search-bar::-moz-placeholder {
+  font-family: Poppins, "Mitr", sans-serif !important;
+} */
+
+.card-appointment {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  text-align: start;
+  padding: 0.5rem 2rem;
+}
+
+.card-appointment-text{
+  text-align: left;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  border-radius: 8px;
+  background-color: #a5b4fc;
+  color: white;
+  padding: 1rem 1rem;
+  width: 90%;
+  align-self: center;
+
+}
+
+
+.card-appointment-add {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  text-align: start;
+  width: 30%;
+  padding: 0.5rem 2rem;
+  align-self: center;
+  text-align: add;
+  cursor: pointer;
+}
+
+.time-item-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.time-item {
+  padding: 0.75rem;
+  background-color: #a5b4fc;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  text-align: center;
+  margin: 1rem 0.5rem;
+  position: relative;
+}
+
+.time-item > .close {
+  position: absolute;
+  top: -0.25rem;
+  right: 0.3rem;
+  cursor: pointer;
+}
+
+/* .appointment-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: #a5c3df;
+  padding: 1rem 2rem;
+  padding-top: 2rem;
+  width: 80%;
+  align-self: left;
+} */
+
+
+.btn-addappointment{
+  margin-left: 3rem;
+  background-color: #577eab;
+  font-size: 18;
+  border-radius: 4px;
+  width: 200px;
+  color: white;
+  margin-top: 2rem;
+  align-self: center;
+}
+
+
+

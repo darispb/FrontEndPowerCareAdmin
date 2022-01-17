@@ -1,0 +1,39 @@
+.working-doctor-content {
+    padding: 2rem 3rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .table-content-working-doctor {
+    text-align: center;
+    overflow: scroll;
+    margin-top: 5px;
+  }
+  
+  .table-grid-working-doctor {
+    display: grid;
+    /* grid-template-columns: 10% 30% 20% 20% calc(20% - 4rem); */
+    grid-template-columns: 20%  30% 30%  calc(20% );
+    grid-gap: 1rem;
+  }
+  
+  
+  .table-grid-working-doctor:not(:first-child) {
+    margin-top: 1rem;
+  }
+  
+  .table-grid-working-doctor.header,
+  .body-table-working-doctor {
+    background-color: #C7D2FE;
+    padding: 1rem;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    min-width: 40rem;
+  }
+  
+  .body-table-working-doctor {
+    display: flex;
+    flex-direction: column;
+    background-color: #EEF2FF;
+  }

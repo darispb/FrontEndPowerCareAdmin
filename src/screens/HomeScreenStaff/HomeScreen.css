@@ -1,0 +1,38 @@
+.home-body {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-home-screen {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 18px;
+  background-color: #ccdbea;
+  color: white;
+}
+
+.card-home-screen:nth-child(even) {
+  background: #7e99b8;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* For Mobile: */
+  .home-body {
+    flex-direction: column;
+    min-height: 80vh;
+  }
+  .card-home-screen {
+    width: 40vw;
+    height: 40vw;
+  }
+}
+

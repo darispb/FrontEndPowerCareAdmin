@@ -1,0 +1,39 @@
+.table-content-user {
+    text-align: center;
+    overflow: scroll;
+    margin-top: 5px;
+  }
+  
+  .table-grid-user {
+    display: grid;
+    /* grid-template-columns: 10% 30% 20% 20% calc(20% - 4rem); */
+    grid-template-columns: 15% 15% 30% 20% calc(10% );
+    grid-gap: 1rem;
+  }
+  
+  .content-user{
+    text-align: start;
+  }
+  
+  .text-user{
+    text-align: center;
+  }
+  
+  .table-grid-user:not(:first-child) {
+    margin-top: 1rem;
+  }
+  
+  .table-grid-user.header,
+  .body-table-user{
+    background-color: #C7D2FE;
+    padding: 1rem;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    min-width: 40rem;
+  }
+  
+  .body-table-user {
+    display: flex;
+    flex-direction: column;
+    background-color: #EEF2FF;
+  }

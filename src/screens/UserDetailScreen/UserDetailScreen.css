@@ -1,0 +1,72 @@
+.working-content {
+    padding: 2rem 3rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  .date-picker-content {
+    display: flex;
+    align-self: flex-end;
+    margin-right: calc(10% - 2rem);
+    align-items: center;
+    justify-content: flex-end
+  }
+  
+  .search-bar {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+  }
+  .button-clear-date {
+    background-color: #a5c3df;
+    padding: 0.2rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .table-content {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .table-grid-userdetail {
+    display: grid;
+    grid-template-columns: 15% 20% 25% 20%  calc(10%);
+    grid-gap: 1rem;
+  }
+  
+  .table-grid-userdetail:not(:first-child) {
+    margin-top: 1rem;
+  }
+  
+  .table-grid-userdetail.header,
+  .body-table {
+    background-color: #C7D2FE;
+    padding: 1rem;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    min-width: 40rem;
+  }
+  
+  .body-table {
+    display: flex;
+    flex-direction: column;
+    background-color: #EEF2FF;
+  }
+  .menu-row {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu-row > .icon-link {
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 600px) {
+    .working-content {
+      padding: 0;
+    }
+  }
+  

@@ -1,0 +1,72 @@
+.noti-item {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-bottom: solid 0.2px #00000008;
+  position: relative;
+  display: flex;
+}
+
+.noti-item > p {
+  margin-left: 1rem;
+  text-align: start;
+}
+
+.noti-item > .marker {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  border-radius: 50%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 30rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  z-index: 1;
+  margin-left: -15rem;
+  min-height: 40vh;
+  max-height: 70vh;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-bottom: 0.75rem solid white;
+  position: absolute;
+  right: 12rem;
+  top: -0.75rem;
+}
+
+.dropdown-inside-content {
+  overflow: scroll;
+  float: 1;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For Mobile: */
+
+  .dropdown-content {
+    width: 90vw;
+    margin-left: 0;
+    right: -4rem;
+    max-height: 90vh;
+  }
+
+  #triangle-up {
+    right: 4.2rem;
+  }
+}

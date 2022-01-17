@@ -1,0 +1,87 @@
+.schedule-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: #C7D2FE;
+  padding: 1rem 2rem;
+  width: 80%;
+  align-self: center;
+}
+
+.input-schedule {
+  position: relative;
+  margin-top: 1rem;
+}
+.input-schedule > p {
+  text-align: start;
+}
+
+.input-schedule-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem 2rem;
+}
+
+.doctor-select,
+.date-picker,
+.time-picker {
+  flex: 1;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: white;
+  text-align: start;
+}
+
+.doctor-select::-ms-expand {
+  display: none;
+}
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Safari, Chrome, Opera */
+  -webkit-appearance: none;
+}
+select option:disabled {
+  color: #777 !important;
+  font-weight: bold;
+  background-color: gray;
+}
+
+.time-picker-content {
+  margin-top: 2rem;
+  width: 100%;
+  /* display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1rem 1rem; */
+}
+
+/* .time-item {
+  padding: 0.75rem;
+  background-color: #ccdbea;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  text-align: center;
+} */
+
+.button-submit {
+  width: fit-content;
+  align-self: flex-end;
+  padding: 0.75rem 3rem;
+  margin-top: 1rem;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For Mobile: */
+  .time-picker-content {
+    grid-template-columns: auto auto;
+  }
+  .time-item {
+    font-size: 0.6rem;
+  }
+}

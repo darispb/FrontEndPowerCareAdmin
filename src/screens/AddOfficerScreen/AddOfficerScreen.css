@@ -1,0 +1,75 @@
+.addofficer-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: #a5c3df;
+  padding: 1rem 2rem;
+  width: 70%;
+  align-self: center;
+}
+
+.btn-officerlist{
+  background-color: #577eab;
+  font-size: 18;
+  border-radius: 4px;
+  width: 200px;
+  color: white;
+  margin-top: 2rem;
+}
+
+.modal:nth-of-type(even) {
+  z-index: 1052 !important;
+}
+.modal-backdrop.show:nth-of-type(even) {
+  z-index: 1051 !important;
+}
+
+
+
+.Powercarepic {
+  width: 200px;
+  margin-top: 0.2in;
+}
+
+.btn-list{
+  background-color: #577eab; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.mb-3 {
+  width:50%;
+  margin-top: 20px;
+  align-items: center;
+  text-align: left;
+  font-size: 20;
+}
+
+.officer-select{
+  flex: 1;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: white;
+  text-align: start;
+}
+
+.btn-addofficer{
+  background-color: #577eab;
+  font-size: 18;
+  border-radius: 4px;
+  width: 120px;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+

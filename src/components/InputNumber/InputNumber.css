@@ -1,0 +1,22 @@
+.input-number-content {
+  display: flex;
+  align-items: center;
+}
+.button-input-number {
+  cursor: pointer;
+}
+.button-input-number,
+.input-number-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.input-number-display {
+  margin: 0 0.2rem;
+}

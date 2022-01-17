@@ -1,0 +1,76 @@
+/* .pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+    
+  }
+  .pagination > .active > a{
+    background-color: #A5B4FC ;
+    border-color: #A5B4FC ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid #A5B4FC ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #A5B4FC ;
+    border-color: #A5B4FC;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #A5B4FC
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  } */
+
+  .table-content-managemedicine {
+    text-align: center;
+    overflow: scroll;
+    margin-top: 5px;
+  }
+  
+  .table-grid-managemedicine {
+    display: grid;
+    /* grid-template-columns: 10% 30% 20% 20% calc(20% - 4rem); */
+    grid-template-columns: 20% 10% 35% 15% calc(10% );
+    grid-gap: 1rem;
+    /* overflow-y: auto; */
+  }
+  
+  .content-managemedicine{
+    text-align: start;
+  }
+  
+  .text-med{
+    text-align: center;
+  }
+  
+  .table-grid-managemedicine:not(:first-child) {
+    margin-top: 1rem;
+  }
+  
+  .table-grid-managemedicine.header,
+  .body-table-managemedicine {
+    background-color: #C7D2FE;
+    padding: 1rem;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    min-width: 40rem;
+  }
+  
+  .body-table-managemedicine {
+    display: flex;
+    flex-direction: column;
+    background-color: #EEF2FF;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+
+  .backhome {
+    align-items:  right;
+  }

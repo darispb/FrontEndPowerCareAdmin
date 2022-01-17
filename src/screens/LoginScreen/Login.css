@@ -1,0 +1,43 @@
+.head-register {
+  text-align: center;
+}
+.Powercarepic {
+  width: 200px;
+  margin-top: 0.5in;
+}
+
+.mb-4 {
+  width: 400px;
+  margin-top: 20px;
+  align-items: center;
+  text-align: left;
+  font-size: 20;
+}
+
+/* login  */
+.mb-4-login {
+  width: 400px;
+  margin-top: 20px;
+  cursor: pointer;
+  align-items: center;
+  text-align: left;
+  font-size: 20;
+}
+
+.btn-sc {
+  background-color: #C7D2FE;
+  color: white;
+  padding: 8px 14px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 400px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For Mobile: */
+  .login {
+    height: auto;
+  }
+}
